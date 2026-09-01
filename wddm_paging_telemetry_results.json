@@ -1,0 +1,182 @@
+[
+  {
+    "context_len": 1024,
+    "status": "success",
+    "elapsed_s": 1.2296411000006628,
+    "tok_s": 6.505963406717364,
+    "physical_vram_mb": 4093.5,
+    "peak_allocated_mb": 3179.08154296875,
+    "peak_reserved_mb": 3226.0,
+    "oversub_allocated_mb": 0.0,
+    "oversub_reserved_mb": 0.0,
+    "before": {
+      "allocated_mb": 2944.41796875,
+      "reserved_mb": 2978.0,
+      "max_allocated_mb": 2944.41796875,
+      "max_reserved_mb": 2978.0,
+      "mem_get_free_mb": 232.42265701293945,
+      "mem_get_total_mb": 4093.5,
+      "nvidia_smi": {
+        "memory.used": "3642",
+        "memory.free": "327",
+        "memory.total": "4094",
+        "utilization.gpu": "35",
+        "utilization.memory": "4",
+        "pcie.link.gen.current": "3",
+        "pcie.link.width.current": "8"
+      }
+    },
+    "after": {
+      "allocated_mb": 2952.5595703125,
+      "reserved_mb": 3226.0,
+      "max_allocated_mb": 3179.08154296875,
+      "max_reserved_mb": 3226.0,
+      "mem_get_free_mb": 0.0,
+      "mem_get_total_mb": 4093.5,
+      "nvidia_smi": {
+        "memory.used": "3849",
+        "memory.free": "120",
+        "memory.total": "4094",
+        "utilization.gpu": "100",
+        "utilization.memory": "100",
+        "pcie.link.gen.current": "3",
+        "pcie.link.width.current": "8"
+      }
+    }
+  },
+  {
+    "context_len": 2048,
+    "status": "success",
+    "elapsed_s": 3.545677899999646,
+    "tok_s": 2.2562681173043946,
+    "physical_vram_mb": 4093.5,
+    "peak_allocated_mb": 3726.640625,
+    "peak_reserved_mb": 3778.0,
+    "oversub_allocated_mb": 0.0,
+    "oversub_reserved_mb": 0.0,
+    "before": {
+      "allocated_mb": 2952.5751953125,
+      "reserved_mb": 2978.0,
+      "max_allocated_mb": 2952.5908203125,
+      "max_reserved_mb": 2978.0,
+      "mem_get_free_mb": 248.67265701293945,
+      "mem_get_total_mb": 4093.5,
+      "nvidia_smi": {
+        "memory.used": "3601",
+        "memory.free": "368",
+        "memory.total": "4094",
+        "utilization.gpu": "54",
+        "utilization.memory": "56",
+        "pcie.link.gen.current": "3",
+        "pcie.link.width.current": "8"
+      }
+    },
+    "after": {
+      "allocated_mb": 2952.5908203125,
+      "reserved_mb": 3778.0,
+      "max_allocated_mb": 3726.640625,
+      "max_reserved_mb": 3778.0,
+      "mem_get_free_mb": 0.0,
+      "mem_get_total_mb": 4093.5,
+      "nvidia_smi": {
+        "memory.used": "3942",
+        "memory.free": "27",
+        "memory.total": "4094",
+        "utilization.gpu": "98",
+        "utilization.memory": "99",
+        "pcie.link.gen.current": "3",
+        "pcie.link.width.current": "8"
+      }
+    }
+  },
+  {
+    "context_len": 3072,
+    "status": "success",
+    "elapsed_s": 19.93080579999878,
+    "tok_s": 0.40138868845937425,
+    "physical_vram_mb": 4093.5,
+    "peak_allocated_mb": 4593.44921875,
+    "peak_reserved_mb": 5000.0,
+    "oversub_allocated_mb": 499.94921875,
+    "oversub_reserved_mb": 906.5,
+    "before": {
+      "allocated_mb": 2952.6064453125,
+      "reserved_mb": 2978.0,
+      "max_allocated_mb": 2952.6376953125,
+      "max_reserved_mb": 2978.0,
+      "mem_get_free_mb": 275.6296806335449,
+      "mem_get_total_mb": 4093.5,
+      "nvidia_smi": {
+        "memory.used": "3210",
+        "memory.free": "759",
+        "memory.total": "4094",
+        "utilization.gpu": "98",
+        "utilization.memory": "99",
+        "pcie.link.gen.current": "3",
+        "pcie.link.width.current": "8"
+      }
+    },
+    "after": {
+      "allocated_mb": 2952.6220703125,
+      "reserved_mb": 5000.0,
+      "max_allocated_mb": 4593.44921875,
+      "max_reserved_mb": 5000.0,
+      "mem_get_free_mb": 0.0,
+      "mem_get_total_mb": 4093.5,
+      "nvidia_smi": {
+        "memory.used": "3842",
+        "memory.free": "127",
+        "memory.total": "4094",
+        "utilization.gpu": "98",
+        "utilization.memory": "28",
+        "pcie.link.gen.current": "3",
+        "pcie.link.width.current": "8"
+      }
+    }
+  },
+  {
+    "context_len": 4096,
+    "status": "success",
+    "elapsed_s": 39.78278450000107,
+    "tok_s": 0.20109200752400286,
+    "physical_vram_mb": 4093.5,
+    "peak_allocated_mb": 5779.7578125,
+    "peak_reserved_mb": 6526.0,
+    "oversub_allocated_mb": 1686.2578125,
+    "oversub_reserved_mb": 2432.5,
+    "before": {
+      "allocated_mb": 2952.6376953125,
+      "reserved_mb": 2978.0,
+      "max_allocated_mb": 2952.6845703125,
+      "max_reserved_mb": 2978.0,
+      "mem_get_free_mb": 284.07500076293945,
+      "mem_get_total_mb": 4093.5,
+      "nvidia_smi": {
+        "memory.used": "3224",
+        "memory.free": "745",
+        "memory.total": "4094",
+        "utilization.gpu": "98",
+        "utilization.memory": "28",
+        "pcie.link.gen.current": "3",
+        "pcie.link.width.current": "8"
+      }
+    },
+    "after": {
+      "allocated_mb": 2952.6533203125,
+      "reserved_mb": 6526.0,
+      "max_allocated_mb": 5779.7578125,
+      "max_reserved_mb": 6526.0,
+      "mem_get_free_mb": 0.0,
+      "mem_get_total_mb": 4093.5,
+      "nvidia_smi": {
+        "memory.used": "3783",
+        "memory.free": "186",
+        "memory.total": "4094",
+        "utilization.gpu": "99",
+        "utilization.memory": "31",
+        "pcie.link.gen.current": "3",
+        "pcie.link.width.current": "8"
+      }
+    }
+  }
+]
